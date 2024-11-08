@@ -1,0 +1,257 @@
+/* CSS ที่มีอยู่ */
+
+/* สำหรับหน้าจอเล็กกว่า 600px */
+@media (max-width: 600px) {
+    .menu-icon {
+        display: none; /* ซ่อนปุ่มเมนูสำหรับหน้าจอขนาดใหญ่ */
+    }
+    html, body {
+        height: 100%; /* กำหนดความสูงเต็ม */
+        display: flex; /* ใช้ flexbox */
+        flex-direction: column; /* ให้จัดเรียงในแนวตั้ง */
+    }
+    
+    header {
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+        text-align: left;
+        padding-left: 3%;
+    }
+    
+    .cart {
+        margin-left: 60%;
+    }
+    
+    .user {
+        margin-left: 10%;
+    }
+    
+    nav {
+        background: gainsboro;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav h3 {
+        color: white;
+        margin: 0; 
+    }
+    
+    nav h3 a {
+        text-decoration: none;
+        color: #333;
+        padding: 0 100px; 
+    }
+    
+    footer {
+        background-color: gray;
+        color: black;
+    }
+    
+    .h, .f, .b, .bp, .cm {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .f {
+        padding-top: 3%;
+        margin-bottom: 150px;
+    }
+    
+    .b, .bp, .cm {
+        border: 3px solid black; 
+        width: 5%; 
+        margin: 0 auto;
+        padding: 10px; 
+        border-radius: 20px;
+        margin-bottom: 3%;
+    }
+    
+    .cm {
+        border: 3px solid white; 
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+    }
+    
+    .QR, .P {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .P {
+        padding: 5% 0 3%;
+    }
+    .h{
+        color: aqua;
+    }
+}
+
+/* สำหรับหน้าจอ 601px - 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+    .menu-icon {
+        display: none; /* ซ่อนปุ่มเมนูสำหรับหน้าจอขนาดใหญ่ */
+    }
+    html, body {
+        height: 100%; /* กำหนดความสูงเต็ม */
+        display: flex; /* ใช้ flexbox */
+        flex-direction: column; /* ให้จัดเรียงในแนวตั้ง */
+    }
+    
+    header {
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+        text-align: left;
+        padding-left: 3%;
+    }
+    
+    .cart {
+        margin-left: 60%;
+    }
+    
+    .user {
+        margin-left: 10%;
+    }
+    
+    nav {
+        background: gainsboro;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav h3 {
+        color: white;
+        margin: 0; 
+    }
+    
+    nav h3 a {
+        text-decoration: none;
+        color: #333;
+        padding: 0 100px; 
+    }
+    
+    footer {
+        background-color: gray;
+        color: black;
+    }
+    
+    .h, .f, .b, .bp, .cm {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .f {
+        padding-top: 3%;
+        margin-bottom: 150px;
+    }
+    
+    .b, .bp, .cm {
+        border: 3px solid black; 
+        width: 5%; 
+        margin: 0 auto;
+        padding: 10px; 
+        border-radius: 20px;
+        margin-bottom: 3%;
+    }
+    
+    .cm {
+        border: 3px solid white; 
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+    }
+    
+    .QR, .P {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .P {
+        padding: 5% 0 3%;
+    }
+    .h{
+        color: red;
+    }
+}
+@media (min-width: 801px) {
+    .menu-icon {
+        display: none; /* ซ่อนปุ่มเมนูสำหรับหน้าจอขนาดใหญ่ */
+    }
+    html, body {
+        height: 100%; /* กำหนดความสูงเต็ม */
+        display: flex; /* ใช้ flexbox */
+        flex-direction: column; /* ให้จัดเรียงในแนวตั้ง */
+    }
+    
+    header {
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+        text-align: left;
+        padding-left: 3%;
+    }
+    
+    .cart {
+        margin-left: 60%;
+    }
+    
+    .user {
+        margin-left: 10%;
+    }
+    
+    nav {
+        background: gainsboro;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav h3 {
+        color: white;
+        margin: 0; 
+    }
+    
+    nav h3 a {
+        text-decoration: none;
+        color: #333;
+        padding: 0 100px; 
+    }
+    
+    footer {
+        background-color: gray;
+        color: black;
+    }
+    
+    .h, .f, .b, .bp, .cm {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .f {
+        padding-top: 3%;
+        margin-bottom: 150px;
+    }
+    
+    .b, .bp, .cm {
+        border: 3px solid black; 
+        width: 5%; 
+        margin: 0 auto;
+        padding: 10px; 
+        border-radius: 20px;
+        margin-bottom: 3%;
+    }
+    
+    .cm {
+        border: 3px solid white; 
+        background: linear-gradient(90deg, #3EBB1F 0%, #35C290 100%);
+        color: white;
+    }
+    
+    .QR, .P {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .P {
+        padding: 5% 0 3%;
+    }
+    .h{
+        color: #3EBB1F;
+    }
+}
